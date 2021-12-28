@@ -40,20 +40,21 @@ namespace Desktop.Administrador
             // 
             // txtNombreC
             // 
-            this.txtNombreC.Location = new System.Drawing.Point(226, 167);
+            this.txtNombreC.Location = new System.Drawing.Point(231, 194);
             this.txtNombreC.Name = "txtNombreC";
-            this.txtNombreC.Size = new System.Drawing.Size(300, 23);
+            this.txtNombreC.Size = new System.Drawing.Size(300, 25);
             this.txtNombreC.TabIndex = 35;
             // 
             // GridCategoria
             // 
             this.GridCategoria.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.GridCategoria.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.GridCategoria.Location = new System.Drawing.Point(141, 234);
+            this.GridCategoria.Location = new System.Drawing.Point(141, 265);
             this.GridCategoria.Name = "GridCategoria";
             this.GridCategoria.ReadOnly = true;
+            this.GridCategoria.RowHeadersWidth = 43;
             this.GridCategoria.RowTemplate.Height = 25;
-            this.GridCategoria.Size = new System.Drawing.Size(733, 275);
+            this.GridCategoria.Size = new System.Drawing.Size(733, 312);
             this.GridCategoria.TabIndex = 34;
             this.GridCategoria.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.GridCategoria_CellClick);
             this.GridCategoria.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.GridCategoria_CellClick);
@@ -64,9 +65,9 @@ namespace Desktop.Administrador
             this.btnModificar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnModificar.Image = global::Desktop.Properties.Resources.icons8_editar_propiedad_48;
             this.btnModificar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnModificar.Location = new System.Drawing.Point(725, 528);
+            this.btnModificar.Location = new System.Drawing.Point(725, 598);
             this.btnModificar.Name = "btnModificar";
-            this.btnModificar.Size = new System.Drawing.Size(149, 34);
+            this.btnModificar.Size = new System.Drawing.Size(149, 39);
             this.btnModificar.TabIndex = 32;
             this.btnModificar.Text = "MODIFICAR";
             this.btnModificar.UseVisualStyleBackColor = false;
@@ -78,9 +79,9 @@ namespace Desktop.Administrador
             this.btnIngresar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnIngresar.Image = global::Desktop.Properties.Resources.icons8_agregar_propiedad_48;
             this.btnIngresar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnIngresar.Location = new System.Drawing.Point(570, 528);
+            this.btnIngresar.Location = new System.Drawing.Point(570, 598);
             this.btnIngresar.Name = "btnIngresar";
-            this.btnIngresar.Size = new System.Drawing.Size(149, 34);
+            this.btnIngresar.Size = new System.Drawing.Size(149, 39);
             this.btnIngresar.TabIndex = 31;
             this.btnIngresar.Text = "AGREGAR";
             this.btnIngresar.UseVisualStyleBackColor = false;
@@ -91,9 +92,9 @@ namespace Desktop.Administrador
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label1.Location = new System.Drawing.Point(141, 170);
+            this.label1.Location = new System.Drawing.Point(141, 193);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(78, 21);
+            this.label1.Size = new System.Drawing.Size(84, 22);
             this.label1.TabIndex = 30;
             this.label1.Text = "NOMBRE:";
             // 
@@ -102,18 +103,18 @@ namespace Desktop.Administrador
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Sitka Small", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label3.Location = new System.Drawing.Point(429, 67);
+            this.label3.Location = new System.Drawing.Point(429, 76);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(181, 44);
+            this.label3.Size = new System.Drawing.Size(187, 45);
             this.label3.TabIndex = 29;
             this.label3.Text = "Categorias";
             // 
             // Categoria
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1003, 730);
+            this.ClientSize = new System.Drawing.Size(1003, 827);
             this.Controls.Add(this.txtNombreC);
             this.Controls.Add(this.GridCategoria);
             this.Controls.Add(this.btnModificar);
